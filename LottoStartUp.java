@@ -42,6 +42,10 @@ public class LottoStartUp extends JFrame {
 					t.cancel();
 					setVisible(false);	
 					new LottoGame().setVisible(true);
+<<<<<<< HEAD
+=======
+					// new LottoStartUp().setVisible(false);
+>>>>>>> 88e1dc8af63f57af75be85d90db7ee1064955449
 				}
 			}
 		}, 1000,100);
@@ -49,6 +53,10 @@ public class LottoStartUp extends JFrame {
 
 	private void mousePointer() {
 		try{
+<<<<<<< HEAD
+=======
+			//loads the custom cursor in the folder
+>>>>>>> 88e1dc8af63f57af75be85d90db7ee1064955449
 			Image cursorImage = ImageIO.read(new File("Images/mousePointer.png"));
 			Cursor customCursor = Toolkit.getDefaultToolkit().createCustomCursor(cursorImage, new Point(0, 0), "CustomCursor");
             setCursor(customCursor);
@@ -80,6 +88,11 @@ public class LottoStartUp extends JFrame {
 	}
 
 	private void initComponents() {
+<<<<<<< HEAD
+=======
+		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents  @formatter:off
+		// Generated using JFormDesigner Educational license - Charlie Marzan (Charlie S Marzan)
+>>>>>>> 88e1dc8af63f57af75be85d90db7ee1064955449
 		pbStart = new JProgressBar();
 		btnStart = new JButton();
 		lblMainTitle = new JLabel();
@@ -152,9 +165,21 @@ public class LottoStartUp extends JFrame {
 		}
 		setSize(590, 860);
 		setLocationRelativeTo(null);
+<<<<<<< HEAD
 	}
+=======
+		// JFormDesigner - End of component initialization  //GEN-END:initComponents  @formatter:on
+	}
+
+	// JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables  @formatter:off
+	// Generated using JFormDesigner Educational license - Charlie Marzan (Charlie S Marzan)
+>>>>>>> 88e1dc8af63f57af75be85d90db7ee1064955449
 	private JProgressBar pbStart;
 	private JButton btnStart;
 	private JLabel lblMainTitle;
 	private JLabel lblMainBackground;
+<<<<<<< HEAD
+=======
+	// JFormDesigner - End of variables declaration  //GEN-END:variables  @formatter:on
+>>>>>>> 88e1dc8af63f57af75be85d90db7ee1064955449
 }
